@@ -15,17 +15,11 @@
   background-color: #235cfa;
   background-color: #5804f3;
   background-color: #FCA311;
-  /* background-color: rgb(255, 255, 255); */
   color: #FFFFFF;
 }
 .profile-card {
   display: flex;
   width: 38em;
-  /* background-color: rgba(68, 11, 238, 0.5); */
-  /* background-color: #FCA311; */
-  /* background-color: rgb(58, 58, 58); */
-  /* background-color: #E5E5E5;
-  background-color: #ffdd4a; */
   
   background-color: #000000;
     padding: 3em;
@@ -85,7 +79,7 @@
   font-size: 1rem;
 }
 .container form button{
-  padding: 0.49em 0.49em 0.38em 0.4em ;
+  padding: 0.4em 0.49em 0.38em 0.4em ;
   border-left: 0;
   outline: none;
   background-color: #235cfa;
