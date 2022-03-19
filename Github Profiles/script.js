@@ -27,7 +27,7 @@ function getData(e){
         </div>
         <div class="info">
             <h3>${data.name}</h3>
-            <h5>${data.type}</h5>
+            <h5>${data.login}</h5>
             <p>${data.bio}</p>
             <ul>
                 <li>Followers: ${data.followers}</li>
