@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+  background-color: #235cfa;
+  background-color: #5804f3;
+  background-color: #FCA311;
+  /* background-color: rgb(255, 255, 255); */
+  color: #FFFFFF;
+}
+.profile-card {
+  display: flex;
+  width: 38em;
+  /* background-color: rgba(68, 11, 238, 0.5); */
+  /* background-color: #FCA311; */
+  /* background-color: rgb(58, 58, 58); */
+  /* background-color: #E5E5E5;
+  background-color: #ffdd4a; */
+  
+  background-color: #000000;
+    padding: 3em;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(225, 225 , 225, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.profile-card .info{
+    margin-left: 22px;
+}
+
+.profile-card p {
+  font-size: 0.9em;
+}
+
+.profile-card .avatar img {
+  height: 115px;
+  width: 115px;
+  border-radius: 5em;
+  border: 3px solid white;
+}
+.profile-card .avatar {
+  height: fit-content;
+}
+
+.profile-card h5 {
+  font-weight: 400;
+  margin-bottom: 7px;
+  color: rgba(225, 225 , 225, 0.9);
+}
+
+.profile-card ul {
+  list-style: none;
+  display: flex;
+  margin-top: 12px;
+}
+.profile-card ul li {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-right: 1em;
+}
+.container form{
+  margin-bottom: 5em;
+}
+
+
+.container form input{
+  padding: 0.4em;
+  box-shadow: -15px -15px 15px rgba(225, 225 , 225, 0.0), 15px 15px 15px rgba(0, 0, 0, 0.2);
+  outline: none;
+  position: relative;
+  bottom: 1px;
+  border-left: 0;
+  border: 0px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 1rem;
+}
+.container form button{
+  padding: 0.49em 0.49em 0.38em 0.4em ;
+  border-left: 0;
+  outline: none;
+  background-color: #235cfa;
+  background-color: #000000;
+  color: white;
+  border: 0px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1rem;
+}
+
+.container form button:hover{
+  background-color:#ffffff ;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
